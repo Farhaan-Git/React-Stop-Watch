@@ -3,9 +3,9 @@ import "./StopWatch.css"
 
 function StopWatch(){
 
-    const [hours,setHours] = useState(9);
-    const [minutes,setMinutes] = useState(59);
-    const [seconds,setSeconds] = useState(57);
+    const [hours,setHours] = useState(0);
+    const [minutes,setMinutes] = useState(0);
+    const [seconds,setSeconds] = useState(0);
 
     const timerRef = useRef(null);  
 
